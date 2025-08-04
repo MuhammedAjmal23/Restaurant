@@ -1,0 +1,304 @@
+*{
+    margin: 0px;
+}
+
+    body{
+background-color: #F4F1EA;
+    }
+
+.mainnav{
+    background-color: red;
+    height: 50px;  
+    font-family: sans-serif;
+}
+
+.nav1 {  
+    display: flex;
+    font-size: larger;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.nav1 ol{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin-left: 1000px;
+}
+.secondnav{
+    background-color: black;
+    margin-top: 18px;
+    font-size: larger;
+    font-weight: bold;
+   
+}
+.secondnav ol{
+    display: flex;
+    height: 80px;
+    color: white;
+    gap: 30px;
+      list-style: none; 
+}
+.secondnav ol li{
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.secondnav p{
+    color: white;
+   padding-top: 25px;
+   padding-left: 500px;
+   word-spacing: 40px;
+}
+
+.mainbody{
+    height: 800px;
+    width: 1525px;
+
+    background-image: url(./brickss\ \(4\).jpg);
+    background-repeat: no-repeat;
+   
+}
+.mainbody h3{
+    color: orange;
+    padding-top: 30px;
+    padding-left: 40px;
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 120px;
+
+}
+.mainbody h1{
+    color: white;
+   padding-top: 20px;
+    padding-left: 30px;
+    font-size: 80px;
+    width: 750px;
+    font-weight: 800;
+    
+}
+.mainbody img{
+    float: right;
+    margin-top: 50px;
+}
+.mainbody button{
+    height: 50px;
+    width: 150px;
+    margin-left: 60px;
+    margin-top: 40px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+.headings{
+    text-align: center;
+    padding-top: 100px;
+    font-size: x-large;
+    font-weight: 100px;
+    background-color: #F4F1EA;
+}
+.headings h4{
+    font-size: large;
+    padding-bottom: 10px;
+    color: #FC791A;
+    
+}
+
+.cards{
+    display: flex;
+    gap: 30px;
+   padding-top: 60px;
+    height: 320px;
+    padding-left: 210px;
+    background-color: #F4F1EA;
+    }
+.card1{
+    margin-top: 10px;
+    background-color: white;
+    width: 250px;
+    border-radius: 30px;
+}
+
+.cards img{
+    padding-left: 45px;
+    padding-top: 30px;
+}
+.cards h3{
+    text-align: center;
+    padding-top: 10px;
+    font-size: larger;
+}
+.cards p{
+text-align: center;
+padding-top: 10px;
+font-size: medium;
+}
+.cards h5{
+    text-align: center;
+    padding-top: 8px;
+    color: red;
+    font-size: medium;
+}
+.secondcards{
+    display: flex;
+    margin-top: 80px;
+    gap: 20px;
+
+    padding-left: 60px;
+
+}
+.cards1{
+   
+    width: 450px;
+    height: 250px;
+    background-color: black;
+}
+
+.cards1 img{
+    float: right;
+    height: 100px;
+    width: 150px;
+}
+.cards1 h5{
+
+    padding-top: 40px;
+    font-size: medium;
+    color: red;
+    padding-left: 10px;
+
+}
+.cards1 h1{
+padding-top: 20px;   
+padding-left: 10px;
+color: white;
+}
+.cards1 h6{
+    padding-top: 20px;
+    padding-left: 10px;
+    font-size: larger;
+    color: #FC791A;
+}
+.cards1 button{
+    height: 50px;
+    width: 150px;
+  margin-top: 20px;
+  margin-left: 20px;
+  color: white;
+  background-color: red;
+  border: none;
+  font-size: large;
+
+}
+
+.about{
+    height: 600px;
+    width: 1518px;
+    background-color: white;
+    margin-top: 70px;
+    text-align: center;
+}
+.abouts{height: 600px;
+    width: 1518px;
+    
+    
+}
+.abouts h4{
+    padding-top: 100px;
+    color: #FC791A;
+}
+.abouts h1{
+    padding-top: 30px;
+    font-size: 50px;
+    font-weight: 1000;
+}
+.abouts p{
+    padding-top: 30px;  
+}
+.abouts button{
+    height: 50px;
+    width: 150px;
+  margin-top: 30px;
+  margin-left: 20px;
+  color: white;
+  background-color: red;
+  border: none;
+  font-size: large;
+}
+.abouts img{
+    width: 300px;
+    height: 300px;
+    margin-top:100px;
+
+}
+.img1{
+    float: left;
+    padding-left: 100px;
+
+}
+.img2{
+    float: right;
+    padding-right: 100px;
+}
+
+.footer{
+    width: 1518px;
+    height: 500px;
+    background-color: black;
+    display: flex;
+}
+.fresh{
+    color: white;
+    height: 300px;
+    width: 300px;
+    margin-left: 20px;
+   padding-top: 60px;
+}
+.fresh h2{
+    font-size: 50px;
+    padding-left: 20px;
+}
+.fresh p{
+    padding-top: 40px;
+    font-size: 15px;
+    padding-left: 20px;
+}
+.fresh ol{
+    list-style: none;
+    display: flex;
+    padding-top: 30px;
+    gap: 30px;
+    font-size: x-large;
+}
+.details{
+    color: white;
+    display: flex;
+    padding-top: 70px;
+    padding-left: 30px;
+    width: 400px;
+    gap: 60px;
+    width: 900px;
+    
+}
+.details ol{
+    list-style: none;
+   
+}
+.details li{
+    padding-top: 50px;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+.details p{
+   padding-top: 50px;
+}
+.details input{
+    margin-top: 30px;
+    height: 30px;
+}
+.secondnav ol  :hover{
+
+background-color: #FC791A;
+color: #0f0e0e;
+}
+
+
